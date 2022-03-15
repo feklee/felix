@@ -1,0 +1,52 @@
+@font-face {
+  font-family: "Spectral";
+  src: url("fonts/Spectral-Regular.ttf");
+}
+
+@font-face {
+   font-family: 'Spectral';
+   src: url("fonts/Spectral-Italic.ttf");
+   font-style: italic;
+}
+
+* {
+    font-weight: normal;
+}
+
+html {
+    margin: auto;
+    background: white;
+}
+
+body {
+    padding: 1.5em 0.5em;
+    font-family: Spectral, charter, Georgia, Cambria,
+                 "Times New Roman", Times, serif;
+    font-size: 20px;
+    line-height: 1.6em;
+}
+
+html, img {
+    max-width: 800px;
+}
+
+p, address {
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+}
+
+img {
+    max-width: 100%;
+}
+
+p a {
+    outline: none;
+    text-decoration: none;
+    padding: 0 1px;
+    border-bottom: 1px solid;
+    color: #538ac9;
+}
+
+address {
+    font-style: italic;
+}
