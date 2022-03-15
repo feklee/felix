@@ -49,4 +49,5 @@ p a {
 
 address {
     font-style: italic;
+    overflow-wrap: break-word;
 }
