@@ -1,0 +1,17 @@
+* {
+    font-weight: normal;
+}
+
+html {
+    margin: 25px auto;
+    background: black;
+}
+
+html, img {
+    max-width: 800px;
+}
+
+img {
+    display: block;
+    margin-bottom: 25px;
+}
